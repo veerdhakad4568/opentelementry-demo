@@ -1,4 +1,4 @@
-package com.service.firstapp.contoller.config;
+package com.service.firstapp.controller.config;
 
 import io.opentelemetry.api.GlobalOpenTelemetry;
 import io.opentelemetry.api.trace.Span;

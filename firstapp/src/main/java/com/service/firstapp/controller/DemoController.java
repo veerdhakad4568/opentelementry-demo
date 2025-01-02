@@ -1,4 +1,4 @@
-package com.service.firstapp.contoller;
+package com.service.firstapp.controller;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

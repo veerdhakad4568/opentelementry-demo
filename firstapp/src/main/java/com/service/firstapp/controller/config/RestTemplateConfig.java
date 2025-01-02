@@ -1,4 +1,4 @@
-package com.service.firstapp.contoller.config;
+package com.service.firstapp.controller.config;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
