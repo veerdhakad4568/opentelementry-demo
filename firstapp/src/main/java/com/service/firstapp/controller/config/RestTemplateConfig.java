@@ -10,11 +10,11 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class RestTemplateConfig {
 
-    @Autowired
-    private OpenTelemetryRestTemplateInterceptor openTelemetryInterceptor;
+//    @Autowired
+//    private OpenTelemetryRestTemplateInterceptor openTelemetryInterceptor;
 
     @Bean
     public RestTemplate restTemplate(RestTemplateBuilder builder) {
-        return builder.additionalInterceptors(openTelemetryInterceptor).build();
+        return builder.build();
     }
 }
