@@ -1,7 +1,7 @@
 <configuration>
 
     <!-- Define the pattern for console logging -->
-    <property name="LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level traceId-%X{traceId} spanId-%X{spanId} %logger{36} - %msg %n"/>
+    <property name="LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level tracestate-%X{tracestate} traceId-%X{traceId} spanId-%X{spanId} %logger{36} - %msg %n"/>
 
     <!-- Define the console appender -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">

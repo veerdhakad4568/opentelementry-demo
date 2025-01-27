@@ -1,4 +1,4 @@
-package com.service.firstapp.controller;
+package com.service.serviceA.controller;
 
 import io.opentelemetry.api.trace.Span;
 import io.opentelemetry.context.Context;
@@ -53,10 +53,10 @@ public class DemoController {
         return  "sayHello";
     }
 
-    @GetMapping("/hello1")
-    public String helloToSecond(){
-        logger.info("say hello");
-       return restTemplate.getForEntity("http://localhost:8081/hello2",String.class).toString();
+    @GetMapping("/sayHelloServiceB")
+    public String sayHelloServiceB(){
+        logger.info("say hello to service B");
+       return restTemplate.getForEntity("http://localhost:8081/helloServiceB",String.class).toString();
     }
 
     private static void performAsyncTask() {

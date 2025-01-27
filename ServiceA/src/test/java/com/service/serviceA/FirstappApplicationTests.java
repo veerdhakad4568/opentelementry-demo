@@ -1,4 +1,4 @@
-package com.service.firstapp;
+package com.service.serviceA;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
